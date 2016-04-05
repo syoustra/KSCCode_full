@@ -15,6 +15,13 @@
 		<link rel="stylesheet" type="text/css" href="css/coding.css">
 
 
+					<SCRIPT TYPE="text/javascript">
+					window.external.InitScriptInterface();
+					function makeLogout() {
+						SiteKiosk.Logout();
+					}
+					</SCRIPT>
+
 
 
 
@@ -28,7 +35,7 @@
 
 				<h1 class="tutorial">WELCOME TO <span class="name">KODABLE!</span></h1>
 
-				<button class="logout">Click here to end your session</button>
+				<a button class="logout" href="javascript:makeLogout()">Click here to end your session</button></a>
 
 <!-- 				<button>Click to toggle numeric keypad</button> -->
 
