@@ -17,7 +17,7 @@
 
 					<SCRIPT TYPE="text/javascript">
 					window.external.InitScriptInterface();
-					function makeLogout() {
+					function doSKLogout() {
 						SiteKiosk.Logout();
 					}
 					</SCRIPT>
@@ -35,7 +35,9 @@
 
 				<h1 class="tutorial">WELCOME TO <span class="name">KODABLE!</span></h1>
 
-				<a button class="logout" href="javascript:makeLogout()">Click here to end your session</button></a>
+						<a href="#" onclick="doSKLogout();" class="logout">Click here to end your session</a>
+
+<!-- 				<a button class="logout" href="javascript:makeLogout()">Click here to end your session</button></a> -->
 
 <!-- 				<button>Click to toggle numeric keypad</button> -->
 
